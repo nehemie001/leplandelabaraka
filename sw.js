@@ -4,13 +4,17 @@
 //             Network-First pour les CDN externes
 // ============================================================
 
-const CACHE_NAME = 'baraka-pwa-v1';
+const CACHE_NAME = 'baraka-pwa-v2';
 const CACHE_CDN = 'baraka-cdn-v1';
 
 // Assets locaux à mettre en cache immédiatement
 const LOCAL_ASSETS = [
+  './',
   './index.html',
   './manifest.json',
+  './sw.js',
+  './icons/icon-72.png',
+  './icons/icon-96.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
 ];

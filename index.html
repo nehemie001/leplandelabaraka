@@ -25,6 +25,9 @@
 <meta property="og:type" content="website">
 <meta property="og:image" content="./icons/icon-512.png">
 
+<!-- ===== PWA (Android / Chrome / Edge) ===== -->
+<meta name="mobile-web-app-capable" content="yes">
+
 <!-- ===== APPLE PWA (iPhone / iPad) ===== -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -1995,6 +1998,7 @@ function restart() {
   document.getElementById('plan-content').innerHTML = '';
   goTo(0);
 }
+</script>
 
 <!-- ===== BANNIÈRE D'INSTALLATION PWA ===== -->
 <div id="pwa-banner" style="display:none; position:fixed; bottom:0; left:0; right:0; z-index:9999;

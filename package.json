@@ -1,0 +1,9 @@
+{
+  "name": "le-plan-de-la-baraka",
+  "private": true,
+  "description": "PWA — Le Plan de la Baraka",
+  "scripts": {
+    "start": "npx --yes serve . -l 3000",
+    "preview": "npx --yes serve . -l 3000"
+  }
+}
